@@ -5,11 +5,14 @@ This document provides documentation for the development process of the MCQ (Mul
 Table of Contents
 1.Setup:
 Requirements & Installation
+
 2.Usage:
 Running the Application
+
 3.Development Process:
 Backend Logic
 Frontend Interface
+
 4.Documentation:
 Code Documentation
  
