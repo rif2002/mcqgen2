@@ -12,8 +12,8 @@ from mcq_generator.logger import logging
 with open('C:\\Users\\user\\OneDrive\\Desktop\\mcqgen2\\response.json', 'r') as file:
     RESPONSE_JSON = json.load(file)
 
-st.title("MCQ APPLICATION")
-uploaded_file = st.file_uploader("Upload a PDF or txt file")
+st.title("MCQ GENERATOR")
+uploaded_file = st.file_uploader("Upload a file")
 topic = st.text_input("Topic name", max_chars=20)
 mcq_count = st.number_input("No. of questions", min_value=3, max_value=50)
 tone = st.text_input("Level Of Questions", max_chars=20, placeholder="Simple")
