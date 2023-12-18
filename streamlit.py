@@ -9,7 +9,7 @@ from mcq_generator.MCQGEN import generate_evaluate_chain
 from src.mcq_generator.util import read_file, get_table_data
 from mcq_generator.logger import logging
 
-with open('C:\Users\user\OneDrive\Desktop\mcqgen2\response.json', 'r') as file:
+with open('C:\\Users\\user\\OneDrive\\Desktop\\mcqgen2\\response.json', 'r') as file:
     RESPONSE_JSON = json.load(file)
 
 st.title("MCQ APPLICATION")
